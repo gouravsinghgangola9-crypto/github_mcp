@@ -1,0 +1,37 @@
+{
+  "version": "1.0",
+  "defaultCategories": {
+    "READ": "ALLOW",
+    "WRITE": "APPROVAL_REQUIRED",
+    "HIGH_RISK": "DENY"
+  },
+  "operations": {
+    "github.get_profile": "ALLOW",
+    "github.list_repositories": "ALLOW",
+    "github.get_repository": "ALLOW",
+    "github.list_commits": "ALLOW",
+    "github.get_commit": "ALLOW",
+    "github.list_branches": "ALLOW",
+    "github.list_issues": "ALLOW",
+    "github.get_issue": "ALLOW",
+    "github.list_pull_requests": "ALLOW",
+    "github.get_pull_request": "ALLOW",
+    "github.get_recent_activity": "ALLOW",
+    "github.auth_status": "ALLOW",
+    "github.auth_device_login": "ALLOW",
+    "github.auth_poll_token": "ALLOW",
+    "github.auth_logout": "ALLOW",
+    "policy.get_rules": "ALLOW",
+    "policy.list_pending_approvals": "ALLOW",
+    "policy.get_audit_log": "ALLOW",
+    "github.create_issue": "ALLOW",
+    "github.create_repository": "ALLOW",
+    "github.create_branch": "APPROVAL_REQUIRED",
+    "github.create_pull_request": "APPROVAL_REQUIRED",
+    "github.merge_pull_request": "APPROVAL_REQUIRED",
+    "github.delete_branch": "DENY",
+    "github.delete_repository": "DENY",
+    "github.delete_file": "DENY"
+  },
+  "repositories": {}
+}

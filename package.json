@@ -1,0 +1,43 @@
+{
+  "name": "github-mcp-server",
+  "version": "1.0.0",
+  "description": "Policy-Controlled GitHub MCP Server (Phase 1: Read & Intelligence)",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "node dist/main.js",
+    "mcp": "node dist/main.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "@nestjs/common": "^11.0.11",
+    "@nestjs/config": "^4.0.1",
+    "@nestjs/core": "^11.0.11",
+    "@octokit/rest": "^21.1.1",
+    "dotenv": "^16.4.7",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.5",
+    "@nestjs/schematics": "^11.0.2",
+    "@swc/cli": "^0.8.1",
+    "@swc/core": "^1.16.13",
+    "@types/node": "^22.13.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "keywords": [
+    "mcp",
+    "github",
+    "nestjs",
+    "model-context-protocol",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT"
+}

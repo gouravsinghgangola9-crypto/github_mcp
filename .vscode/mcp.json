@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "github-mcp": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/dist/main.js"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_github_token_here"
+      }
+    }
+  }
+}

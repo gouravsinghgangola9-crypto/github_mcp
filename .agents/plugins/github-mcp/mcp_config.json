@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "github-mcp": {
+      "command": "node",
+      "args": [
+        "/home/gourav/Documents/gourav-projects/mcpforjiju/github_mcp/dist/main.js"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "your_github_token_here"
+      }
+    }
+  }
+}
